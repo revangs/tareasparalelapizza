@@ -15,6 +15,7 @@ echo -e "\e[32mAhora es la instalacion de docker-compose i weas\e[0m"
 sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 echo -e "\e[31mestamos listos con la instalacion de docker-compose YUJUUU\e[0m"
+echo -e "\e[31mfuente: https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-18-04\e[0m"
 echo -e "\e[32mAhora comprobaremos las versiones de docker y docker-compose i weas\e[0m"
 docker -v
 docker-compose --version
